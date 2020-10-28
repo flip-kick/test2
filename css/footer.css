@@ -1,0 +1,190 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* footer */
+
+.footer {
+    margin-top: 100px;
+    padding: 48px 0 75px;
+    background-color: #222222;
+}
+
+.footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.footer__bar__menu {
+    margin-top: 15px;
+}
+
+.footer__info {
+    max-width: 330px;
+    width: 100%;
+}
+
+.footer__info__text {
+    margin-top: -27px;
+    color: #CACACA;
+    max-width: 363px;
+    line-height: 32px;
+}
+
+.footer__info__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 110px;
+}
+
+.footer__info__item:not(:last-child) {
+    margin-right: 22px;
+}
+
+.footer__info__fb, .footer__info__vk, .footer__info__inst {
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-image: url(../img/Соцсети.png);
+    background-repeat: no-repeat;
+}
+
+.footer__info__vk {
+    background-position: -85px;
+}
+
+.footer__info__inst {
+    background-position: -170px;
+}
+
+.footer__info__fb:hover, .footer__info__vk:hover, .footer__info__inst:hover {
+    background-image: url(../img/Соцсети1.png);
+}
+
+/* footer__request */
+
+.footer__request {
+    margin-left: 271px;
+    margin-right: 236px;
+    max-width: 571px;
+    width: 100%;
+}
+ 
+.footer__request__title {
+    color: #fff;
+    margin-bottom: 21px;
+}
+
+.footer__request__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.footer__request__input {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 24px;
+    background-color: #414141;
+    border: none;
+    margin-bottom: 23px;
+}
+
+::-webkit-input-placeholder {
+    color: #CACACA;
+}
+::-moz-placeholder          {
+    color: #CACACA;
+}/* Firefox 19+ */
+:-moz-placeholder           {
+    color: #CACACA;
+}/* Firefox 18- */
+:-ms-input-placeholder      {
+    color: #CACACA;
+}
+
+.footer__request__textarea {
+    resize: none;
+    height: 150px;
+}
+
+.footer__request__btn {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    border: none;
+    padding: 21px 57px;
+    margin-right: 45px;
+    background-color: #FF9900;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.footer__request__btn:hover {
+    background: rgba(255, 153, 0, 0.6);
+}
+
+.footer__request__submit {
+    display: inline-block;
+}   
+
+.footer__request__checkbox__label {
+    position: relative;
+    cursor: pointer;
+}
+
+.footer__request__checkbox__start {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.footer__request__checkbox {
+    position: absolute;
+    top: 2px;
+    left: -17px;
+    background-image: url(../img/Rectangle43.png);
+    width: 1em;
+    height: 1em;
+    background-repeat: no-repeat;
+}
+
+.footer__request__checkbox__start:checked + .footer__request__checkbox {
+    background-image: url(../img/Check.png);
+}
+
+.footer__request__checkbox__text {
+    color: #CACACA;
+}
+
+/* .footer__bar */
+
+.footer__bar__link {
+    color: #CACACA;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.footer__bar__link:hover {
+    color: #ff9900;
+}
+
+.footer__bar__item:not(:last-child) {
+    margin-bottom: 15px;
+}

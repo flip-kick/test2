@@ -1,0 +1,64 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-size: 16px;
+    outline-color: #ff7700;
+	color: #333333;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+	font-weight: 400;
+    background-color: #fff;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+	-webkit-transition: 1s ease;
+	-o-transition: 1s ease;
+	transition: 1s ease;
+}
+
+button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+	-webkit-transition: 1s ease;
+	-o-transition: 1s ease;
+	transition: 1s ease;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	max-width: 1770px;
+	margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0!important;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 400;
+    color: #333333;
+}

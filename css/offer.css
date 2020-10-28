@@ -1,0 +1,86 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.offer {
+    padding-top: 100px;
+}
+
+.swiper-slide {
+    background-color: #85c1e5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 105px 0 90px 80px;
+    margin-bottom: 50px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    display: none;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 75px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+.offer__img__first {
+    background: url(../img/photo1.jpg);
+}
+.offer__img__second {
+    background: url(../img/photo2.jpg);
+}
+.offer__img__third {
+    background: url(../img/photo3.jpg);
+}
+
+.offer__text__bold {
+    display: block;
+    max-width: 825px;
+    width: 100%;
+    font-size: 70px;
+    line-height: 86px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.offer__text {
+    color: #fff;
+    max-width: 850px;
+    font-size: 23px;
+    font-weight: 600;    
+    line-height: 30px;
+    margin-bottom: 95px;
+    letter-spacing: 0.01em;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background-color: #FF9900;
+    color: #fff;
+    padding: 26px 35px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(255, 153, 0, 0.6);
+}

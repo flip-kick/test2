@@ -1,0 +1,222 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.main__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+/* about */
+
+.main {
+    margin-top: 52px
+}
+
+.about {
+    margin-bottom: 42px;
+}
+
+.about__title {
+    margin-bottom: 23px;
+}
+
+.about__text {
+    max-width: 1235px;
+    line-height: 32px;
+}
+
+/* more */
+
+.more {
+    position: relative;
+    max-width: 870px;
+    width: 100%;
+    height: 622px;
+    background-color: #584641;
+    background-image: url(../img/Rectangle2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.more__blur {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);        
+}
+
+.more__text {
+    color: #fff;
+    max-width: 548px;
+    font-weight: 600;
+    padding: 39px 0 42px 54px;
+    line-height: 32px;
+}
+
+.more__btn {
+    color: #fff;
+    font-weight: 600;
+    padding: 17px 36px;
+    border: 3px solid #FF9900;
+    margin-left: 79px;
+    cursor: pointer;
+}
+
+.more__btn:hover {
+    background-color: #ff9900;
+}
+
+/* info */
+
+.info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.info__item {
+    max-width: 870px;
+    width: 100%;
+    border: 1px solid #CACACA;
+    background-repeat: no-repeat;
+    line-height: 32px;
+}
+
+.info__item_first {
+    background-image: url(../img/box.png);
+    padding: 67px 100px 66px 300px;
+    background-position: 62px 74px;
+}
+
+.info__item_last {
+    background-image: url(../img/gear.png);
+    padding: 64px 100px 68px 300px;
+    background-position: 63px 54px;
+}
+
+.info__bold {
+    display: block;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* stages */
+
+.stages {
+    margin-top: 100px;
+    display: inline-block;
+    width: 100%;
+}
+
+.stages__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 49px;
+    margin-bottom: 45px;
+}
+
+.stages__item:not(:last-child) {
+    margin-right: 85px;
+}
+
+.stages__link {
+    background-color: transparent;
+    border: 3px solid transparent;
+    margin-top: -3px;
+    font-size: 18px;
+}
+
+.stages__link:hover {
+    color: #FF9900;
+}
+
+.stages__link:active {
+    color: #FF9900;
+}
+
+.stages__article {
+    line-height: 32px;
+}
+
+.stages__text__bold {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.stages__text {
+    display: block;
+    max-width: 758px;
+    width: 100%;
+    line-height: 32px;
+}
+
+.stages__btn {
+    display: inline-block;
+    padding: 15px 38px;
+    color: #fff;
+    font-weight: 800;
+    background-color: #FF9900;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.stages__btn:hover {
+    background: rgba(255, 153, 0, 0.6);
+}
+
+.stages__contract {
+    display: inline-block;
+    padding: 14px 35px;
+    font-weight: 800;
+    border: 1px solid #333333;
+    margin-left: 29px;
+    margin-top: 57px;
+}
+
+.stages__contract:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.stages__article__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.stages__back {
+    background-image: url(../img/Rectangle18.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: auto;
+    background-position: 19px 13px;
+}
